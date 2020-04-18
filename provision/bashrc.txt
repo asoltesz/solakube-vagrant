@@ -1,0 +1,22 @@
+
+function anc() {
+
+
+    export SK_PROJECT_ROOT=/home/vagrant
+
+    # Define script home here if it is not the default path
+    export SK_SCRIPT_HOME="${SK_PROJECT_ROOT}/solakube/scripts"
+
+    cd "${SK_PROJECT_ROOT}"
+
+    export SK_CLUSTER="andromeda"
+
+    alias sk=${SK_SCRIPT_HOME}/sk
+
+    echo
+    echo "Your shell is now configured for the SolaKube/${SK_CLUSTER} project."
+    echo
+}
+
+# Preparing the shell for the Andromeda project
+anc

@@ -1,0 +1,10 @@
+---
+user_password: xxx
+
+smtp_host: xxx
+smtp_port: 587
+smtp_username: xxxx
+smtp_password: xxx
+smtp_hostname: xxx
+
+kernelcare_key:

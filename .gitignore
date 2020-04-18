@@ -1,0 +1,4 @@
+secret
+.vagrant
+*.log
+package.box
