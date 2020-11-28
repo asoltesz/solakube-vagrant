@@ -10,7 +10,7 @@ fi
 
 echo "Downloading kubectl..."
 
-curl --silent -LO https://storage.googleapis.com/kubernetes-release/release/v1.15.11/bin/linux/amd64/kubectl
+curl --silent -LO https://storage.googleapis.com/kubernetes-release/release/v1.19.4/bin/linux/amd64/kubectl
 
 # Make the kubectl binary executable.
 
